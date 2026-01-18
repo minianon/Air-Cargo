@@ -78,13 +78,6 @@ npm test
 
 ---
 
-## Documentation
-
-- [High-Level Design (HLD)](./docs/HLD.md)
-- [Low-Level Design (LLD)](./docs/LLD.md)
-
----
-
 ## Key Features
 
 - **Booking Management**: Create, track, and manage cargo bookings
@@ -92,7 +85,44 @@ npm test
 - **Timeline Tracking**: Immutable event history
 - **State Machine**: Enforced booking status transitions
 - **Concurrency Control**: Optimistic locking for safe updates
+- **Caching**: LRU cache for route queries (5 min TTL)
+- **Monitoring**: Health endpoint with metrics
 - **Modern UI**: Dark theme with glassmorphism design
+
+---
+
+## 🎥 Demo
+
+![Demo Recording](./docs/assets/demo.webp)
+
+### Screenshots
+
+<table>
+  <tr>
+    <td><img src="./docs/assets/create_booking_form.png" alt="Create Booking" width="400"/></td>
+    <td><img src="./docs/assets/booking_details.png" alt="Booking Details" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Create Booking Form</b></td>
+    <td align="center"><b>Booking Details & Timeline</b></td>
+  </tr>
+  <tr>
+    <td><img src="./docs/assets/track_booking.png" alt="Track Booking" width="400"/></td>
+    <td><img src="./docs/assets/route_search.png" alt="Route Search" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Track Booking</b></td>
+    <td align="center"><b>Route Search Results</b></td>
+  </tr>
+</table>
+
+---
+
+## Documentation
+
+- [High-Level Design (HLD)](./docs/HLD.md)
+- [Low-Level Design (LLD)](./docs/LLD.md)
+- [Walkthrough with Screenshots](./docs/WALKTHROUGH.md)
 
 ---
 
@@ -129,8 +159,29 @@ npm test
 | `NODE_ENV` | Backend | Environment mode |
 | `CORS_ORIGIN` | Backend | Allowed frontend origin |
 
+
+---
+
+## Sponsor
+
+If you find this helpful, consider supporting me:
+
+- **Sponsor Me:** [Buy Me a Coffee!](https://github.com/sponsors/TuShArBhArDwA)
+
 ---
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+- **Meet T-Bot** - [Discover My Work](https://t-bot-blush.vercel.app/)
+- **Tushar Bhardwaj** - [Portfolio](https://tushar-bhardwaj.vercel.app/)
+- **Connect 1:1** - [Topmate](https://topmate.io/tusharbhardwaj)
+- **GitHub:** [TuShArBhArDwA](https://github.com/TuShArBhArDwA)
+- **LinkedIn:** [Tushar Bhardwaj](https://www.linkedin.com/in/bhardwajtushar2004/)
+- **Email:** [tusharbhardwaj2617@example.com](mailto:tusharbhardwaj2617@example.com)
+
